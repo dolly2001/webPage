@@ -1,0 +1,25 @@
+---> understanding units
+    - px 
+    - %
+    - vw(viewport width), vh(viewport height)
+    - vmax(viewport maximum)[according to maximum width or height], vmin(viewminimum)[according to minimum width or height]
+    - em, rem
+
+---> Layout of website
+    - absolute or flex
+
+---> Flexbox
+    - Display flex
+    - align itmes in main and cross axis
+    - flex direction
+    - flex wrap 
+
+---> CSS Media query    
+
+
+---> Key points to keep in mind to make website responsives
+    - CSS Flexbox
+    - CSS units
+    - Responsive Typography
+    - Mobile-First Approach
+    - Flexible Images & Media

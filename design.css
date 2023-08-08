@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(218, 165, 32, 0.79);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+}
+
+.content{
+    display: flex;
+    gap: 4vw; 
+    align-items: center;
+}
+
+.logo img{
+    height: 18vh;
+}
+
+.content h3{
+    font-size: 2vw;
+}
+
+.content i{
+    font-size: 2.5vw;
+    display: none;
+}
+
+.main-content{
+    height: calc(100% - 100px);
+    width: 100%;
+    display: flex;
+}
+
+
+.left{
+    height: 100%;
+    width: 55%;
+    padding: 5vw 10vw;
+}
+
+.right{
+    height: 100%;
+    width: 45%;
+    /* background: #000; */
+}
+
+.right img{
+    height: 83vh;
+}
+
+.left h1{
+    font-size: 3vw;
+}
+
+.left span{
+    color: red;
+}
+
+.left h3{
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: #666;
+    width: 95%;
+    margin-top: 3vh;
+    margin-bottom: 3vw;
+}
+
+
+button{
+    padding: 2vh 1vw;
+    background-color: rgba(88, 225, 243, 0.786);
+    border: 1px solid #000;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+}
+
+.page2{
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width:600px) {
+    .nav{
+        height: 15vw;
+        width: 100%;
+    }
+
+    .logo img{
+        height: 15vw;
+    }
+
+    .content h3{
+        display: none;
+    }
+
+    .content img{
+        display: block;
+    }
+
+    .main-content{
+        width: 100vw;
+        height: 150vh;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .right{
+        width: 100vw;
+        height: 65vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .right img{
+        width: 100vw;
+        height: 65vh;
+    }
+    .left{
+        height: 150vh;
+        width: 100%;
+    }
+
+    .left h1{
+        font-size: 10vw;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .left h3{
+        font-size: 5vw;
+        width: 100%;
+        margin-bottom: 20%;
+    }
+
+    .left button{
+        font-size: 4vw;
+        padding: 5vw 4vw;
+        background-color: #000;
+        color: #fff;
+    }
+} 
